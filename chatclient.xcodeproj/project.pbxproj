@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E484B9BD3C64F56B3654CD5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E5049FED3473C8F94A87C /* libPods.a */; };
 		42FC10FD19760E7B00E8C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FC10FC19760E7B00E8C64A /* Foundation.framework */; };
 		42FC10FF19760E7B00E8C64A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FC10FE19760E7B00E8C64A /* CoreGraphics.framework */; };
 		42FC110119760E7B00E8C64A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FC110019760E7B00E8C64A /* UIKit.framework */; };
@@ -19,6 +20,10 @@
 		42FC111819760E7B00E8C64A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FC110019760E7B00E8C64A /* UIKit.framework */; };
 		42FC112019760E7B00E8C64A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FC111E19760E7B00E8C64A /* InfoPlist.strings */; };
 		42FC112219760E7B00E8C64A /* chatclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC112119760E7B00E8C64A /* chatclientTests.m */; };
+		42FC112E19760E9E00E8C64A /* ChatClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC112C19760E9E00E8C64A /* ChatClientViewController.m */; };
+		42FC112F19760E9E00E8C64A /* ChatClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FC112D19760E9E00E8C64A /* ChatClientViewController.xib */; };
+		42FC1133197614C300E8C64A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC1131197614C300E8C64A /* LoginViewController.m */; };
+		42FC1134197614C300E8C64A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FC1132197614C300E8C64A /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5E5049FED3473C8F94A87C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC10F919760E7A00E8C64A /* chatclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC10FC19760E7B00E8C64A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42FC10FE19760E7B00E8C64A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,13 @@
 		42FC111D19760E7B00E8C64A /* chatclientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatclientTests-Info.plist"; sourceTree = "<group>"; };
 		42FC111F19760E7B00E8C64A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42FC112119760E7B00E8C64A /* chatclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatclientTests.m; sourceTree = "<group>"; };
+		42FC112B19760E9E00E8C64A /* ChatClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatClientViewController.h; sourceTree = "<group>"; };
+		42FC112C19760E9E00E8C64A /* ChatClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatClientViewController.m; sourceTree = "<group>"; };
+		42FC112D19760E9E00E8C64A /* ChatClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatClientViewController.xib; sourceTree = "<group>"; };
+		42FC1130197614C300E8C64A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		42FC1131197614C300E8C64A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		42FC1132197614C300E8C64A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FC460637AD10453F9DD3EFEC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 				42FC10FF19760E7B00E8C64A /* CoreGraphics.framework in Frameworks */,
 				42FC110119760E7B00E8C64A /* UIKit.framework in Frameworks */,
 				42FC10FD19760E7B00E8C64A /* Foundation.framework in Frameworks */,
+				2E484B9BD3C64F56B3654CD5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				42FC111B19760E7B00E8C64A /* chatclientTests */,
 				42FC10FB19760E7A00E8C64A /* Frameworks */,
 				42FC10FA19760E7A00E8C64A /* Products */,
+				FC460637AD10453F9DD3EFEC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +115,7 @@
 				42FC10FE19760E7B00E8C64A /* CoreGraphics.framework */,
 				42FC110019760E7B00E8C64A /* UIKit.framework */,
 				42FC111519760E7B00E8C64A /* XCTest.framework */,
+				0A5E5049FED3473C8F94A87C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +127,12 @@
 				42FC110C19760E7B00E8C64A /* AppDelegate.m */,
 				42FC110E19760E7B00E8C64A /* Images.xcassets */,
 				42FC110319760E7B00E8C64A /* Supporting Files */,
+				42FC112B19760E9E00E8C64A /* ChatClientViewController.h */,
+				42FC112C19760E9E00E8C64A /* ChatClientViewController.m */,
+				42FC112D19760E9E00E8C64A /* ChatClientViewController.xib */,
+				42FC1130197614C300E8C64A /* LoginViewController.h */,
+				42FC1131197614C300E8C64A /* LoginViewController.m */,
+				42FC1132197614C300E8C64A /* LoginViewController.xib */,
 			);
 			path = chatclient;
 			sourceTree = "<group>";
@@ -151,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FC112519760E7B00E8C64A /* Build configuration list for PBXNativeTarget "chatclient" */;
 			buildPhases = (
+				05A0D5BAB4034C879131A972 /* Check Pods Manifest.lock */,
 				42FC10F519760E7A00E8C64A /* Sources */,
 				42FC10F619760E7A00E8C64A /* Frameworks */,
 				42FC10F719760E7A00E8C64A /* Resources */,
+				681B28104A7F465D9A6AF604 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FC1134197614C300E8C64A /* LoginViewController.xib in Resources */,
+				42FC112F19760E9E00E8C64A /* ChatClientViewController.xib in Resources */,
 				42FC110719760E7B00E8C64A /* InfoPlist.strings in Resources */,
 				42FC110F19760E7B00E8C64A /* Images.xcassets in Resources */,
 			);
@@ -234,11 +260,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A0D5BAB4034C879131A972 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		681B28104A7F465D9A6AF604 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42FC10F519760E7A00E8C64A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FC1133197614C300E8C64A /* LoginViewController.m in Sources */,
+				42FC112E19760E9E00E8C64A /* ChatClientViewController.m in Sources */,
 				42FC110D19760E7B00E8C64A /* AppDelegate.m in Sources */,
 				42FC110919760E7B00E8C64A /* main.m in Sources */,
 			);
@@ -354,6 +415,7 @@
 		};
 		42FC112619760E7B00E8C64A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC460637AD10453F9DD3EFEC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +429,7 @@
 		};
 		42FC112719760E7B00E8C64A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC460637AD10453F9DD3EFEC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +500,7 @@
 				42FC112719760E7B00E8C64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42FC112819760E7B00E8C64A /* Build configuration list for PBXNativeTarget "chatclientTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +509,7 @@
 				42FC112A19760E7B00E8C64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
