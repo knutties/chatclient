@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "ChatClientViewController.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -14,6 +17,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"0WdAoDlfFas3rwS1HCKpW2mXgmS6RO9oGes742SE" clientKey:@"vO6YY38d2I9Ij0RB1d2ReIl0LJfeK22Ga81HSrsY"];
+
+    PFUser *currentUser = [PFUser currentUser];
+    
+    if (currentUser) {
+        self.window.rootViewController = [[ChatClientViewController alloc] init];
+
+    } else {
+        self.window.rootViewController = [[LoginViewController alloc] init];
+
+    }
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
